@@ -90,7 +90,7 @@ export default {
         let req = await axios.get(`databarang/${this.select}`);
         if (req.data.length > 0) {
           window.open(
-            "http://localhost/persediaan/backend/public/laporanbarangruangan/" +
+            "https://resolved-grooves.000webhostapp.com/laporanbarangruangan/" +
               this.select
           );
         } else {
@@ -98,7 +98,7 @@ export default {
         }
       } else {
         window.open(
-          "http://localhost/persediaan/backend/public/laporanbarangruangan/SEMUA"
+          "https://resolved-grooves.000webhostapp.com/laporanbarangruangan/SEMUA"
         );
       }
     },

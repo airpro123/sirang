@@ -53,7 +53,7 @@ export default {
   methods: {
     downloadPDF: function (item) {
       window.open(
-        "http://localhost/persediaan/backend/public/laporanpeminjamanmobil/" +
+        "https://resolved-grooves.000webhostapp.com/laporanpeminjamanmobil" +
           item.id
       );
     },

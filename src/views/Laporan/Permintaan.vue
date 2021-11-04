@@ -49,7 +49,7 @@ export default {
   methods: {
     downloadPDF: function (item) {
       window.open(
-        "http://localhost/persediaan/backend/public/laporanpermintaan/" +
+        "https://resolved-grooves.000webhostapp.com/laporanpermintaan/" +
           item.kode
       );
     },
