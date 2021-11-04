@@ -5,7 +5,7 @@ import vuetify from './plugins/vuetify'
 import axios from 'axios'
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://localhost/persediaan/backend/public/';
+axios.defaults.baseURL = 'https://resolved-grooves.000webhostapp.com/';
 
 new Vue({
   router,
